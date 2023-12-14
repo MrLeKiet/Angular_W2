@@ -1,0 +1,15 @@
+@if(count == 0 ) {
+    <div>
+        <button (click)="logIn()">Log In</button>
+        <h2>Click to login</h2>
+    </div>
+    
+} @else {
+    <div>
+        <img class="img" src="../../assets/pictures/cat.jpg">
+        <h2>Profile Picture</h2>
+    </div>
+    <div>
+        <button (click)="logOut()">Log Out</button>
+    </div>
+}
