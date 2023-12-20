@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContentComponent } from './content/content.component';
 import { ProductComponent } from './product/product.component';
+import { ProductService } from './service/product.service';
 
 
 @Component({
